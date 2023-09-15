@@ -1,0 +1,340 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.emptySection{
+    height: 150px;
+}
+
+.myContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.myDiv{
+    background-color: white;
+    width: 312px;
+    height: 463px;  
+    border-radius: 4%;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    position: relative;
+   
+}
+
+.favouriteIcon{
+  
+    .favouriteBtn{
+        margin: 20px 0 0 266px;
+        font-size: 25px;
+        position: relative;
+        width: 25px;
+      
+    }
+    .color1,.color2,.color3,.color4{
+        width: 30px;
+        height: 18px;
+        position: absolute;
+        border-radius: 7px;
+    }
+    .color1{
+        margin: 60px 0 0 266px;
+        background-color: black;
+        cursor: pointer;
+    }
+    .color2{
+        margin: 72px 0 0 266px;
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+    .color3{
+        margin: 85px 0 0 266px;
+        background-color: lightblue;
+        cursor: pointer;
+    }
+    .color1:hover{
+        z-index: 9999;
+        transition: 0.3s;
+    }
+    .color2:hover{
+        z-index: 555;
+        transition: 0.3s;
+
+    }
+    
+}
+.firstImg{
+    width: 188px;
+    height: 188px;
+   
+}
+.circleInfo{
+    padding: 9px;
+    font-size: 12px;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    color: white;
+    background-color: red;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.myImage{
+    margin-top: 30px;
+    display: flexbox;
+}
+
+
+.circleSecond{
+    font-size: 9px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.productName:hover{
+    color: red;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.buttonCredit{
+    width: 155px;
+    height: 29px;
+    background-color:#ebebeb;
+    border-radius: 5px;
+    button{
+        font-weight: 600;
+        font-size: 12px;
+    }
+
+}
+
+.customBtnMonth{
+    background-color: white;
+    margin-top: 2px;
+    width: 50px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.buyContainer{
+    width: 278px;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 20px;
+    .addToCard_style{
+    width: 278px;
+    height: 40px;
+    background-color: #8dc63f;
+    border-radius: 10px;
+    color: white;
+    }
+    .addToCard_style:hover{
+        background-color: #4b7c07d0;
+        transition: 0.5s;
+    }
+    
+}
+.circleImg{
+    display: flex;
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+.colorItem1,.colorItem2,.colorItem3,.colorItem4{
+    width: 30px;
+    height: 18px;
+    position: absolute;
+    border-radius: 7px;
+}
+.colorItem1{
+    margin: 60px 0 0 266px;
+    background-color: black;
+    cursor: pointer;
+    
+}
+.colorItem2{
+    margin: 72px 0 0 266px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    
+}
+.colorItem3{
+    margin: 85px 0 0 266px;
+    background-color: purple;
+    cursor: pointer;
+   
+}
+.colorItem4{
+    margin: 98px 0 0 266px;
+    background-color: rgb(3, 95, 3);
+    cursor: pointer;
+}
+.colorItem1:hover{
+    z-index: 9999;
+}
+.colorItem2:hover{
+    z-index: 9999;
+}
+.colorItem3:hover{
+    z-index: 9999;
+}
+
+
+// basket page
+
+.mainBasket-container{
+    background-color: white;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    align-items: center;
+}
+.basket-main-Products{
+    width: 996px;
+    height: 200px;
+    margin-right: 50px;
+    h1{
+        left: 0;
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+.basketProduct{
+    left: 0;
+}
+.productXiaomi{
+        width: 74px;
+        height: 74px;
+}
+.nameProduct{
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.menuProd{
+   color: red;
+   font-size: 12px;
+}
+.saleDiv{
+    width: 144px;
+    height: 34px;
+    border-radius: 6px;
+    background: linear-gradient(90deg,#495b8a,#8a7289);
+    p{
+        font-size: 12px;
+        color:white;
+        padding-left: 8px;
+        font-weight: bold;
+    }
+    span{
+        color:#dded2a;
+    }
+}
+
+.addBtn{
+    width: 96px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.priceShow{
+    .namePrice{
+        font-size: 12px;
+    }
+    .xiaomiPrice{
+        font-weight: bold;
+    }
+}
+.basket-main-Products{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.489);
+}
+.basketHeader{
+    position: absolute;
+    left: 110px;
+    margin-bottom: 25px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.basket-main-container{
+    margin-right: 250px;
+}
+
+.basketOrderContainer{
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-top: 150px;
+    margin-right: 50px;
+    width: 280px;
+    height: 220px;
+    background-color: #faf6fc;
+    border-radius: 6px;
+    gap: 4px;
+    .orderHeader{
+        width: 256px;
+        height: 50px;
+        border-bottom: 1px solid black;
+        span{
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    .orderContentBody{
+        color: #515151;
+        font-size: 14px;
+        width: 256px;
+        height: 34px;
+        border-bottom: 1px solid black;
+    }
+    .orderContentBodySales{
+        color: #515151;
+        font-size: 14px;
+        text-align: center;
+        width: 256px;
+        height: 34px;
+        border-bottom: 1px solid black;
+    }
+    .orderContentTotalPrice{
+        font-size: 14px;
+        font-weight: bold;
+        width: 256px;
+        height: 44px;
+        
+    }
+    .buyNow{
+        background-color: #495b8a;
+        color: white;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+        width: 256px;
+        height: 41px;
+    }
+}
+
+.allprice,.cashSale{
+    margin-left: 150px;
+    font-weight: 700;
+}
+.cashSale{
+    margin-left: 70px;
+    font-weight: 700;
+}
+.lastAllPrice{
+    margin-left: 80px;
+    font-weight: 700;
+}
+.productCount{
+    margin-left: 20px;
+    font-weight: 700;
+}

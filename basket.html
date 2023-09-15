@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/css/main.css">
+</head>
+<body>
+    <div class="emptySection"></div>
+    <h1 class="basketHeader">Səbətim</h1>
+    <div id="mainBasketCont" class="mainBasket-container flex justify-evenly">
+
+    </div>
+        <div class="basketOrderContainer flex items-center flex-col">
+            <div class="orderHeader flex mt-2 gap-2 ">
+                <span>Səbətdəki məhsullar</span>
+                <span class="productCount"></span>
+            </div>
+            <div class="orderContentBody flex gap-2">
+                <span>Toplam:</span>
+                <span class="allprice"></span>
+                <span>₼</span>
+            </div>
+            <div class="orderContentBodySales flex gap-2">
+                <span>Nəğd alışda endirim:</span>
+                <span class="cashSale"></span>
+                <span>₼</span>
+            </div>
+            <div class="orderContentTotalPrice flex gap-2">
+                <span>Cəmi ödəniləcək:</span>
+                <span class="lastAllPrice"></span>
+                <span>₼</span>
+            </div>
+            <a href="#" class="buyNow">Növbəti</a>
+        </div>
+            
+    </div>
+    
+</body>
+<script src="main.js"></script>
+</html>

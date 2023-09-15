@@ -1,0 +1,16 @@
+{
+  "name": "basket",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss:watch": "sass --watch styles/sass/main.scss styles/css/main.css --no-source-map"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.65.1"
+  }
+}
